@@ -1,4 +1,3 @@
-#Remove pass and complete the code
 def check_character(word, index):
     if 0 < index < len(word):
         char_at_index = word[index]
@@ -10,7 +9,7 @@ def check_character(word, index):
       return "white space"
     else:
       return "unknown"
-    
+
     
    
 if __name__ == '__main__': 
